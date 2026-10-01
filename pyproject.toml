@@ -8,10 +8,12 @@ dependencies = [
     "ipykernel>=7.4.0",
     "jupyterlab>=4.6.4",
     "matplotlib>=3.11.2",
+    "netcdf4>=1.7.4",
     "numpy>=2.5.3",
     "planetary-computer>=1.0.0",
     "pystac-client>=0.9.0",
     "rasterio>=1.5.2",
     "scikit-learn>=1.9.1",
     "scipy>=1.18.1",
+    "xarray>=2026.9.0",
 ]
