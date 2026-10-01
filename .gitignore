@@ -1,0 +1,26 @@
+# --- Python / environment ---
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# --- Satellite and derived data: NEVER commit ---
+# Raw and intermediate rasters live in data/ and are re-downloadable from the source.
+data/
+*.SAFE/
+*.zip
+*.tif
+*.tiff
+*.nc
+*.h5
+*.hdf
+*.npy
+*.npz
+*.zarr/
+
+# Figures in figures/ ARE committed (small PNGs used by the README).
+
+# --- OS / editor ---
+.DS_Store
+.vscode/
+.idea/
